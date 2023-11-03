@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.6.172/pdf.min.js">
+  </script>
+    <title>PDF Text</title>
+</head>
+<body>
+    <div class="contanier">
+        <h1>PDF Text</h1>
+        <h4>Hello, meu benzinho!</h4>
+        <form action="">
+            <label for="input-pdf">Selecione a revista aqui</label>
+            <input type="file" name="input-pdf" id="input-pdf" accept=".pdf">
+        </form>
+        <br>
+        <p>O texto ficará aqui abaixo:</p>
+        <div class="slot">
+            <p class="text"></p>
+        </div>
+    </div>
+    <div class="spinner">
+        <div class="loader"></div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
